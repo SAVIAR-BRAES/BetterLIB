@@ -10,16 +10,13 @@ body
 
 table.decorated tbody tr.line1
 {
-    display: block;
     background-color: #424242 !important;
-    border-radius: 20px !important;
 }
 table.decorated tbody tr.line0
 {
-    display: block;
     background-color: #424242 !important;
-    border-radius: 20px !important;
 }
+
 table.decorated tbody tr.line0 td
 {
     border-top: none !important;
@@ -29,9 +26,4 @@ table.decorated tbody tr.line1 td
 {
     border-top: none !important;
     border-left: none !important;
-}
-#formWiadomosci > div > div > table > tbody > tr > td:nth-child(2) > table.decorated.stretch > tbody
-{
-    display: block !important;
-    position: absolute !important;
 }
